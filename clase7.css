@@ -1,0 +1,46 @@
+#contenedor{
+    height: 700px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+/*XS SM (hasta 600px celular y a partir de 992px compu)*/
+
+@media screen and (max-width:600px){
+    #contenedor{
+        background-color: rgb(144, 202, 144);
+    }
+    h1{
+        font-size:30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+
+/*MD*/
+
+@media only screen and ( min-width: 600px ){
+    #contenedor{
+        background-color: rgb(164, 74, 74);
+    }
+    h1{
+        font-size:50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+/*LG*/
+
+@media only screen and ( min-width: 992px ){
+    #contenedor{
+        background-color: yellow;
+    }
+    h1{
+        color: red;
+        font-size: 60px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+    
